@@ -1,0 +1,14 @@
+﻿<Page
+    x:Class="Try1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Try1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid  Background="#F06292" x:Name="grid">
+        <TextBlock HorizontalAlignment="Left" Margin="625,233,0,0" TextWrapping="Wrap" Text="Health Keep" VerticalAlignment="Top" FontSize="50" FontFamily="Ryo Gothic PlusN"/>
+        <TextBlock HorizontalAlignment="Left" Margin="440,320,0,0" TextWrapping="Wrap" Text="Analyse the diseases prevalant in your vicinity" VerticalAlignment="Top" FontSize="30" FontFamily="Ryo Gothic PlusN"/>
+    </Grid>
+</Page>
